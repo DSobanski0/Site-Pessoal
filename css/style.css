@@ -13,7 +13,7 @@ body {
 
 .conteudo {
     background-color: rgb(255, 255, 255);
-    height: 100vh;
+    height: auto;
     width: 60vw;
     margin: auto;
 }
@@ -57,18 +57,19 @@ body {
 }
 
 .pagina_principal {
-    padding: 20px 40px;
+    padding: 20px 40px 0 40px;
     border-bottom: 3px double rgb(218, 218, 218);
 }
 
 .pagina_principal article {
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: left;
     text-indent: 40px;
 }
 
 .pagina_principal article p {
     padding: 5px 0;
+    text-align: justify;
 }
 
 .rodape {
