@@ -14,10 +14,12 @@ body {
 .conteudo {
     background-color: rgb(255, 255, 255);
     height: auto;
+    min-height: 100vh;
     width: 60vw;
     margin: auto;
 }
 
+/* Cabeçalho */
 .cabecalho {
     display: flex;
     justify-content: space-around;
@@ -25,15 +27,16 @@ body {
     border-bottom: 3px double rgb(218, 218, 218);
 }
 
-#titulo_principal {
+#titulo-principal {
     padding: 40px 0;
     font-size: 2.6em;
 }
 
-.foto_daniel {
+.foto-daniel {
     border-radius: 40%;
 }
 
+/* Menu */
 .menu {
     font-size: 1.2em;
     padding: 20px 0;
@@ -56,22 +59,160 @@ body {
     color: blue;
 }
 
-.pagina_principal {
+/* Página inicial */
+.pagina-inicial {
     padding: 20px 40px 0 40px;
     border-bottom: 3px double rgb(218, 218, 218);
 }
 
-.pagina_principal article {
+.pagina-inicial article {
     padding: 10px 0;
-    text-align: left;
+}
+
+.pagina-inicial p {
+    padding: 5px 0;
+    text-align: justify;
     text-indent: 40px;
 }
 
-.pagina_principal article p {
-    padding: 5px 0;
+/* Página currículo */
+.curriculo {
+    padding: 20px 40px 0 40px;
+    border-bottom: 3px double rgb(218, 218, 218);
+}
+
+.informacoes-basicas {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(80, 80, 80);
+    font-size: 0.9rem;
+}
+
+.informacoes-basicas i {
+    margin-right: 5px;
+}
+
+.objetivo {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.curriculo article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.esquerda {
+    width: 50%;
+}
+
+.direita {
+    width: 45%;
+}
+
+h4 {
+    border-bottom: 2px solid black;
+    margin-top: 1.7rem;
+}
+
+ul {
+    margin-left: 19px;
+}
+
+.resumo {
     text-align: justify;
 }
 
+.resumo h4 {
+    margin-bottom: 5px;
+}
+
+.experiencia-profissional p {
+    padding: 3px 0;
+}
+
+.cargo {
+    font-size: 1.2rem;
+}
+
+.empresa {
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+
+.data-localizacao {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+    color: rgb(80, 80, 80);
+}
+
+.data-localizacao i {
+    margin-right: 5px;
+}
+
+.experiencia {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding: 2px 0 7px 0;
+}
+
+.experiencia:nth-child(3) {
+    border: none;
+}
+
+.formacao-academica p {
+    padding: 5px 0;
+}
+
+.curso {
+    font-size: 1.2rem;
+}
+
+.faculdade {
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+
+.periodo {
+    font-size: 0.8rem;
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+.periodo i {
+    margin-right: 5px;
+}
+
+.estudo {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding: 5px 0 10px 0;
+}
+
+.estudo:nth-child(4) {
+    border: none;
+}
+
+.idioma div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.download-curriculo {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(80, 80, 80);
+    font-size: 0.9rem;
+}
+
+.download-curriculo a {
+    color: rgb(85, 96, 255);
+}
+
+/* Rodapé */
 .rodape {
     padding: 20px 40px;
 }
@@ -96,6 +237,7 @@ body {
     color: rgb(0, 0, 0);
 }
 
+/* Página em manutenção */
 .manutencao {
     margin: auto;
     margin-top: 20px;
